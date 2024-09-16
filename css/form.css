@@ -1,0 +1,63 @@
+/* Estilo específico para el formulario de registro de docentes */
+
+/* Contenedor del formulario */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título del formulario */
+.container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Estilo de los grupos de formulario */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilo de las etiquetas */
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo de los campos de entrada */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Estilo del botón de envío */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo del botón en hover */
+button:hover {
+  background-color: #0056b3;
+}
